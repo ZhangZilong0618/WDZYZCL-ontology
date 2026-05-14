@@ -21,13 +21,164 @@
 
 
     <!-- ============================================================ -->
-    <!-- Compounds Semiconductor Materials                            -->
+    <!-- Crystal Structures (subclasses of crystal structure PMD_0000591) -->
+    <!-- ============================================================ -->
+
+    <!-- WDZ_0200000: wurtzite crystal structure -->
+
+    <owl:Class rdf:about="https://w3id.org/wdzyzcl/co/WDZ_0200000">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0000591"/>
+        <rdfs:label xml:lang="en">wurtzite crystal structure</rdfs:label>
+        <rdfs:label xml:lang="zh">纤锌矿晶体结构</rdfs:label>
+        <skos:definition xml:lang="en">A hexagonal crystal structure commonly found in III-V wide bandgap semiconductors such as GaN and AlN, characterised by tetrahedrally coordinated atoms arranged in alternating hexagonal close-packed layers.</skos:definition>
+        <skos:definition xml:lang="zh">六方晶体结构，常见于GaN、AlN等III-V族宽禁带半导体，由四面体配位的原子交替排列成六方密堆积层。</skos:definition>
+    </owl:Class>
+
+
+    <!-- WDZ_0200001: amorphous structure -->
+
+    <owl:Class rdf:about="https://w3id.org/wdzyzcl/co/WDZ_0200001">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0000591"/>
+        <rdfs:label xml:lang="en">amorphous structure</rdfs:label>
+        <rdfs:label xml:lang="zh">非晶结构</rdfs:label>
+        <skos:definition xml:lang="en">A solid-state structure lacking long-range atomic periodicity, characteristic of oxide semiconductor thin films such as IGZO deposited at low temperatures.</skos:definition>
+        <skos:definition xml:lang="zh">缺少长程原子周期性的固态结构，是低温沉积的IGZO等氧化物半导体薄膜的典型特征。</skos:definition>
+    </owl:Class>
+
+
+    <!-- ============================================================ -->
+    <!-- Band Gap Subtypes (subclasses of band gap PMD_0090002)         -->
+    <!-- ============================================================ -->
+
+    <!-- WDZ_0210000: wide band gap -->
+
+    <owl:Class rdf:about="https://w3id.org/wdzyzcl/co/WDZ_0210000">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0090002"/>
+        <rdfs:label xml:lang="en">wide band gap</rdfs:label>
+        <rdfs:label xml:lang="zh">宽禁带</rdfs:label>
+        <skos:definition xml:lang="en">A band gap exceeding approximately 3.0 eV, characteristic of semiconductors such as GaN (3.4 eV) and AlN (6.2 eV), enabling high breakdown voltage and high-temperature operation.</skos:definition>
+        <skos:definition xml:lang="zh">超过约3.0 eV的带隙，是GaN（3.4 eV）和AlN（6.2 eV）等半导体的特征，使其具备高击穿电压和高温工作能力。</skos:definition>
+    </owl:Class>
+
+
+    <!-- ============================================================ -->
+    <!-- Electrical Properties (subclasses of electrical property PMD_0000621) -->
+    <!-- ============================================================ -->
+
+    <!-- WDZ_0220000: carrier mobility -->
+
+    <owl:Class rdf:about="https://w3id.org/wdzyzcl/co/WDZ_0220000">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0000621"/>
+        <rdfs:label xml:lang="en">carrier mobility</rdfs:label>
+        <rdfs:label xml:lang="zh">载流子迁移率</rdfs:label>
+        <skos:definition xml:lang="en">Carrier mobility is the disposition of a semiconductor to allow charge carriers (electrons or holes) to move through its lattice under an applied electric field, expressed as drift velocity per unit electric field.</skos:definition>
+        <skos:definition xml:lang="zh">载流子迁移率是半导体在外加电场下允许载流子（电子或空穴）在晶格中移动的特性，表示为每单位电场的漂移速度。</skos:definition>
+    </owl:Class>
+
+
+    <!-- WDZ_0220001: field-effect mobility -->
+
+    <owl:Class rdf:about="https://w3id.org/wdzyzcl/co/WDZ_0220001">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/wdzyzcl/co/WDZ_0220000"/>
+        <rdfs:label xml:lang="en">field-effect mobility</rdfs:label>
+        <rdfs:label xml:lang="zh">场效应迁移率</rdfs:label>
+        <skos:definition xml:lang="en">Field-effect mobility is the carrier mobility extracted from the transfer characteristics of a field-effect transistor, characterising the effective carrier transport in the channel region under gate bias.</skos:definition>
+        <skos:definition xml:lang="zh">场效应迁移率是从场效应晶体管转移特性中提取的载流子迁移率，表征栅偏压下沟道区域中有效载流子输运。</skos:definition>
+    </owl:Class>
+
+
+    <!-- ============================================================ -->
+    <!-- Optical Properties (subclasses of optical property PMD_0000877) -->
+    <!-- ============================================================ -->
+
+    <!-- WDZ_0230000: optical transparency -->
+
+    <owl:Class rdf:about="https://w3id.org/wdzyzcl/co/WDZ_0230000">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0000877"/>
+        <rdfs:label xml:lang="en">optical transparency</rdfs:label>
+        <rdfs:label xml:lang="zh">光学透明度</rdfs:label>
+        <skos:definition xml:lang="en">Optical transparency is the property of a material to transmit visible light without significant absorption or scattering, characteristic of wide bandgap oxide semiconductors such as IGZO.</skos:definition>
+        <skos:definition xml:lang="zh">光学透明度是材料在可见光范围内无明显吸收或散射而透光的特性，是IGZO等宽禁带氧化物半导体的典型特征。</skos:definition>
+    </owl:Class>
+
+
+    <!-- ============================================================ -->
+    <!-- Microelectronics Manufacturing Processes                       -->
+    <!-- ============================================================ -->
+
+    <!-- WDZ_0300000: epitaxial growth process -->
+
+    <owl:Class rdf:about="https://w3id.org/wdzyzcl/co/WDZ_0300000">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0000569"/>
+        <rdfs:label xml:lang="en">epitaxial growth process</rdfs:label>
+        <rdfs:label xml:lang="zh">外延生长工艺</rdfs:label>
+        <skos:definition xml:lang="en">Epitaxial growth is a coating process from the gaseous or vapour state in which a crystalline film is deposited on a crystalline substrate with a defined crystallographic orientation relationship between the film and the substrate.</skos:definition>
+        <skos:definition xml:lang="zh">外延生长是一种从气态或蒸气状态进行的涂覆工艺，在晶体衬底上沉积晶体薄膜，薄膜与衬底之间具有确定的晶体学取向关系。</skos:definition>
+    </owl:Class>
+
+
+    <!-- WDZ_0300001: MOCVD process -->
+
+    <owl:Class rdf:about="https://w3id.org/wdzyzcl/co/WDZ_0300001">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/wdzyzcl/co/WDZ_0300000"/>
+        <rdfs:label xml:lang="en">metal-organic chemical vapour deposition</rdfs:label>
+        <rdfs:label xml:lang="zh">金属有机化学气相沉积</rdfs:label>
+        <skos:altLabel xml:lang="en">MOCVD</skos:altLabel>
+        <skos:altLabel xml:lang="zh">MOCVD</skos:altLabel>
+        <skos:definition xml:lang="en">MOCVD is an epitaxial growth process using metal-organic precursors and hydride gases to deposit compound semiconductor thin films, widely used for GaN, AlN, and other III-V semiconductor layers.</skos:definition>
+        <skos:definition xml:lang="zh">MOCVD是一种使用金属有机前驱体和氢化物气体沉积化合物半导体薄膜的外延生长工艺，广泛用于GaN、AlN和其他III-V族半导体层。</skos:definition>
+    </owl:Class>
+
+
+    <!-- WDZ_0300002: sputter deposition process -->
+
+    <owl:Class rdf:about="https://w3id.org/wdzyzcl/co/WDZ_0300002">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0000571"/>
+        <rdfs:label xml:lang="en">sputter deposition process</rdfs:label>
+        <rdfs:label xml:lang="zh">溅射沉积工艺</rdfs:label>
+        <skos:definition xml:lang="en">Sputter deposition is a coating process from the ionized state in which target material is ejected by ion bombardment and deposited onto a substrate, commonly used for oxide semiconductor thin films such as IGZO.</skos:definition>
+        <skos:definition xml:lang="zh">溅射沉积是一种从离子态进行的涂覆工艺，靶材通过离子轰击溅射出原子并沉积到衬底上，常用于IGZO等氧化物半导体薄膜。</skos:definition>
+    </owl:Class>
+
+
+    <!-- ============================================================ -->
+    <!-- Compound Semiconductor Materials                              -->
     <!-- ============================================================ -->
 
     <!-- WDZ_0100100: gallium nitride -->
 
     <owl:Class rdf:about="https://w3id.org/wdzyzcl/co/WDZ_0100100">
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0010101"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/wdzyzcl/co/WDZ_0200000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/wdzyzcl/co/WDZ_0210000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000091"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/co/PMD_0000978"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000091"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/wdzyzcl/co/WDZ_0220000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/wdzyzcl/co/WDZ_0300001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">gallium nitride</rdfs:label>
         <rdfs:label xml:lang="zh">氮化镓</rdfs:label>
         <skos:altLabel xml:lang="en">GaN</skos:altLabel>
@@ -42,6 +193,30 @@
 
     <owl:Class rdf:about="https://w3id.org/wdzyzcl/co/WDZ_0100101">
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0010101"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/wdzyzcl/co/WDZ_0200000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/wdzyzcl/co/WDZ_0210000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000091"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/co/PMD_0000978"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/wdzyzcl/co/WDZ_0300001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">aluminium nitride</rdfs:label>
         <rdfs:label xml:lang="zh">氮化铝</rdfs:label>
         <skos:altLabel xml:lang="en">AlN</skos:altLabel>
@@ -56,6 +231,30 @@
 
     <owl:Class rdf:about="https://w3id.org/wdzyzcl/co/WDZ_0100102">
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0010101"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/wdzyzcl/co/WDZ_0200001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/wdzyzcl/co/WDZ_0230000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000091"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/wdzyzcl/co/WDZ_0220001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/wdzyzcl/co/WDZ_0300002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">indium gallium zinc oxide</rdfs:label>
         <rdfs:label xml:lang="zh">铟镓锌氧化物</rdfs:label>
         <skos:altLabel xml:lang="en">IGZO</skos:altLabel>
