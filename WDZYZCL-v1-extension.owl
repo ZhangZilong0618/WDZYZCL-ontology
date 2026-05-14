@@ -264,4 +264,97 @@
         <skos:example xml:lang="zh">智能手机和平板电脑高分辨率OLED显示屏中的IGZO TFT背板。</skos:example>
     </owl:Class>
 
+
+    <!-- ============================================================ -->
+    <!-- Additional Crystal Structures                                 -->
+    <!-- ============================================================ -->
+
+    <!-- WDZ_0200002: diamond cubic crystal structure -->
+
+    <owl:Class rdf:about="https://w3id.org/wdzyzcl/co/WDZ_0200002">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0000591"/>
+        <rdfs:label xml:lang="en">diamond cubic crystal structure</rdfs:label>
+        <rdfs:label xml:lang="zh">金刚石立方晶体结构</rdfs:label>
+        <skos:definition xml:lang="en">A cubic crystal structure consisting of two interpenetrating face-centred cubic lattices, characteristic of silicon and germanium, in which each atom is tetrahedrally coordinated with four nearest neighbours.</skos:definition>
+        <skos:definition xml:lang="zh">由两个相互穿插的面心立方晶格组成的立方晶体结构，是硅和锗的典型结构，每个原子与四个最近邻原子形成四面体配位。</skos:definition>
+    </owl:Class>
+
+
+    <!-- ============================================================ -->
+    <!-- Additional Manufacturing Processes                            -->
+    <!-- ============================================================ -->
+
+    <!-- WDZ_0300003: thermal oxidation process -->
+
+    <owl:Class rdf:about="https://w3id.org/wdzyzcl/co/WDZ_0300003">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0000833"/>
+        <rdfs:label xml:lang="en">thermal oxidation process</rdfs:label>
+        <rdfs:label xml:lang="zh">热氧化工艺</rdfs:label>
+        <skos:definition xml:lang="en">Thermal oxidation is a manufacturing process in which a silicon wafer is exposed to an oxidizing atmosphere at elevated temperature to grow a thin, high-quality silicon dioxide layer on its surface, used as a gate dielectric or passivation layer in semiconductor devices.</skos:definition>
+        <skos:definition xml:lang="zh">热氧化是一种制造工艺，将硅晶圆在高温下暴露于氧化气氛中，在其表面生长一层高质量二氧化硅薄膜，用作半导体器件中的栅介质或钝化层。</skos:definition>
+    </owl:Class>
+
+
+    <!-- ============================================================ -->
+    <!-- Additional Semiconductor Materials                            -->
+    <!-- ============================================================ -->
+
+    <!-- WDZ_0100103: silicon -->
+
+    <owl:Class rdf:about="https://w3id.org/wdzyzcl/co/WDZ_0100103">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0010100"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/wdzyzcl/co/WDZ_0200002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000091"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/wdzyzcl/co/WDZ_0220000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">silicon</rdfs:label>
+        <rdfs:label xml:lang="zh">硅</rdfs:label>
+        <skos:altLabel xml:lang="en">Si</skos:altLabel>
+        <skos:definition xml:lang="en">Silicon (Si) is the most widely used elemental semiconductor, possessing a diamond cubic crystal structure and an indirect band gap of 1.12 eV. It forms the foundation of the modern integrated circuit industry and is the dominant substrate material for microelectronics manufacturing.</skos:definition>
+        <skos:definition xml:lang="zh">硅（Si）是应用最广泛的元素半导体，具有金刚石立方晶体结构和1.12 eV的间接带隙。它是现代集成电路产业的基础，也是微电子制造的主导衬底材料。</skos:definition>
+        <skos:example xml:lang="en">Silicon wafers as substrates for CMOS integrated circuit fabrication.</skos:example>
+        <skos:example xml:lang="zh">硅晶圆作为CMOS集成电路制造的衬底。</skos:example>
+    </owl:Class>
+
+
+    <!-- WDZ_0100200: silicon dioxide -->
+
+    <owl:Class rdf:about="https://w3id.org/wdzyzcl/co/WDZ_0100200">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/wdzyzcl/co/WDZ_0200001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/co/PMD_0000604"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/wdzyzcl/co/WDZ_0300003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">silicon dioxide</rdfs:label>
+        <rdfs:label xml:lang="zh">二氧化硅</rdfs:label>
+        <skos:altLabel xml:lang="en">SiO2</skos:altLabel>
+        <skos:altLabel xml:lang="en">silica</skos:altLabel>
+        <skos:definition xml:lang="en">Silicon dioxide (SiO2) is an amorphous dielectric material formed by thermal oxidation of silicon. It serves as the gate dielectric in MOSFET devices, an isolation layer between interconnects, and a passivation layer protecting the underlying semiconductor from environmental contamination.</skos:definition>
+        <skos:definition xml:lang="zh">二氧化硅（SiO2）是一种通过硅的热氧化形成的非晶介电材料。它用作MOSFET器件中的栅介质、互连线之间的隔离层，以及保护下层半导体免受环境污染的钝化层。</skos:definition>
+        <skos:example xml:lang="en">SiO2 gate dielectric thermally grown on a silicon channel in a MOSFET transistor.</skos:example>
+        <skos:example xml:lang="zh">在MOSFET晶体管中通过热氧化在硅沟道上生长的SiO2栅介质。</skos:example>
+    </owl:Class>
+
 </rdf:RDF>
