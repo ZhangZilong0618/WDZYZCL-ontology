@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns="https://w3id.org/wdzyzcl/co/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xml:base="https://w3id.org/wdzyzcl/co/">
+
+    <owl:Ontology rdf:about="https://w3id.org/wdzyzcl/co/">
+        <owl:versionIRI rdf:resource="https://w3id.org/wdzyzcl/co/1.0.0"/>
+        <owl:imports rdf:resource="https://w3id.org/pmd/co/3.0.0"/>
+        <dcterms:title xml:lang="en">WDZYZCL Microelectronics Heterogeneous Materials Ontology</dcterms:title>
+        <dcterms:title xml:lang="zh">微电子异质材料本体</dcterms:title>
+        <dcterms:description xml:lang="en">Domain extension of PMDco for microelectronics heterogeneous materials, covering wide bandgap semiconductors, oxide semiconductors, thin-film materials, heterostructures, microelectronics processes, and semiconductor devices.</dcterms:description>
+        <dcterms:description xml:lang="zh">基于PMDco的微电子异质材料领域扩展本体，覆盖宽禁带半导体、氧化物半导体、薄膜材料、异质结构、微电子工艺和半导体器件。</dcterms:description>
+        <dcterms:created>2026-05-14</dcterms:created>
+        <dcterms:creator>Zhang Zilong</dcterms:creator>
+        <owl:versionInfo>1.0.0</owl:versionInfo>
+    </owl:Ontology>
+
+
+    <!-- ============================================================ -->
+    <!-- Compounds Semiconductor Materials                            -->
+    <!-- ============================================================ -->
+
+    <!-- WDZ_0100100: gallium nitride -->
+
+    <owl:Class rdf:about="https://w3id.org/wdzyzcl/co/WDZ_0100100">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0010101"/>
+        <rdfs:label xml:lang="en">gallium nitride</rdfs:label>
+        <rdfs:label xml:lang="zh">氮化镓</rdfs:label>
+        <skos:altLabel xml:lang="en">GaN</skos:altLabel>
+        <skos:definition xml:lang="en">Gallium nitride (GaN) is a III-V wide bandgap compound semiconductor with wurtzite crystal structure. It exhibits high electron mobility, high breakdown voltage, and is commonly used in high-power, high-frequency electronic devices and blue/UV light-emitting diodes.</skos:definition>
+        <skos:definition xml:lang="zh">氮化镓（GaN）是一种III-V族宽禁带化合物半导体，具有纤锌矿晶体结构。它具有高电子迁移率、高击穿电压，广泛用于高功率、高频电子器件和蓝光/紫外发光二极管。</skos:definition>
+        <skos:example xml:lang="en">GaN high electron mobility transistors (HEMTs) for 5G base station power amplifiers.</skos:example>
+        <skos:example xml:lang="zh">用于5G基站功率放大器的GaN高电子迁移率晶体管（HEMT）。</skos:example>
+    </owl:Class>
+
+
+    <!-- WDZ_0100101: aluminium nitride -->
+
+    <owl:Class rdf:about="https://w3id.org/wdzyzcl/co/WDZ_0100101">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0010101"/>
+        <rdfs:label xml:lang="en">aluminium nitride</rdfs:label>
+        <rdfs:label xml:lang="zh">氮化铝</rdfs:label>
+        <skos:altLabel xml:lang="en">AlN</skos:altLabel>
+        <skos:definition xml:lang="en">Aluminium nitride (AlN) is a III-V wide bandgap compound semiconductor with wurtzite crystal structure. It is characterised by high thermal conductivity, high electrical resistivity, and excellent piezoelectric properties, making it suitable for thermal management substrates, surface acoustic wave (SAW) devices, and deep-ultraviolet optoelectronics.</skos:definition>
+        <skos:definition xml:lang="zh">氮化铝（AlN）是一种III-V族宽禁带化合物半导体，具有纤锌矿晶体结构。它具有高热导率、高电阻率和优异的压电特性，适用于热管理衬底、声表面波（SAW）器件和深紫外光电子器件。</skos:definition>
+        <skos:example xml:lang="en">AlN thin films as buffer layers for GaN-based HEMTs on silicon substrates.</skos:example>
+        <skos:example xml:lang="zh">AlN薄膜作为硅衬底上GaN基HEMT的缓冲层。</skos:example>
+    </owl:Class>
+
+
+    <!-- WDZ_0100102: indium gallium zinc oxide -->
+
+    <owl:Class rdf:about="https://w3id.org/wdzyzcl/co/WDZ_0100102">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0010101"/>
+        <rdfs:label xml:lang="en">indium gallium zinc oxide</rdfs:label>
+        <rdfs:label xml:lang="zh">铟镓锌氧化物</rdfs:label>
+        <skos:altLabel xml:lang="en">IGZO</skos:altLabel>
+        <skos:definition xml:lang="en">Indium gallium zinc oxide (IGZO) is a quaternary amorphous oxide semiconductor composed of indium, gallium, zinc, and oxygen. It exhibits high field-effect mobility, low off-state current, and optical transparency in the visible range, making it the dominant channel material in high-resolution thin-film transistor (TFT) backplanes for OLED and LCD displays.</skos:definition>
+        <skos:definition xml:lang="zh">铟镓锌氧化物（IGZO）是一种由铟、镓、锌、氧组成的四元非晶氧化物半导体。它具有高场效应迁移率、低关态电流和可见光透过性，是高分辨率OLED和LCD显示器薄膜晶体管（TFT）背板的主流沟道材料。</skos:definition>
+        <skos:example xml:lang="en">IGZO TFT backplanes in high-resolution OLED displays for smartphones and tablets.</skos:example>
+        <skos:example xml:lang="zh">智能手机和平板电脑高分辨率OLED显示屏中的IGZO TFT背板。</skos:example>
+    </owl:Class>
+
+</rdf:RDF>
