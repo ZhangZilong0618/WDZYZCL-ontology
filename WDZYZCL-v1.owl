@@ -1248,11 +1248,11 @@ Werner建议基于“大小”的解决方案，我们正在等待其细节。</
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:domain>
-        <obo:IAO_0000112 xml:lang="en">this red color is a quality of this apple</obo:IAO_0000112> <obo:IAO_0000112 xml:lang="zh">这种红色是这种苹果的一种质量</obo:IAO_0000112>
-        <obo:IAO_0000115 xml:lang="en">a relation between a quality and an independent continuant (the bearer), in which the quality specifically depends on the bearer for its existence</obo:IAO_0000115> <obo:IAO_0000115 xml:lang="zh">质量与独立持续体（载体）之间的关系，其中质量的存在特定地依赖于该载体</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">A quality inheres in its bearer at all times for which the quality exists.</obo:IAO_0000116> <obo:IAO_0000116 xml:lang="zh">质量在其存在的所有时间内都存在于其载体中。</obo:IAO_0000116>
+        <obo:IAO_0000112 xml:lang="en">this red color is a quality of this apple</obo:IAO_0000112> <obo:IAO_0000112 xml:lang="zh">这种红色是这种苹果的一种特性</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a relation between a quality and an independent continuant (the bearer), in which the quality specifically depends on the bearer for its existence</obo:IAO_0000115> <obo:IAO_0000115 xml:lang="zh">特性与独立持续体（载体）之间的关系，其中特性的存在特定地依赖于该载体</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">A quality inheres in its bearer at all times for which the quality exists.</obo:IAO_0000116> <obo:IAO_0000116 xml:lang="zh">特性在其存在的所有时间内都存在于其载体中。</obo:IAO_0000116>
         <rdfs:comment>This relation is modeled after the BFO relation of the same name which was in BFO2, but is used in a more restricted sense - specifically, we model this relation as functional (inherited from characteristic-of). Note that this relation is now removed from BFO2020.</rdfs:comment>
-        <rdfs:label xml:lang="en">quality of</rdfs:label> <rdfs:label xml:lang="zh">的质量</rdfs:label>
+        <rdfs:label xml:lang="en">quality of</rdfs:label> <rdfs:label xml:lang="zh">的特性</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1290,10 +1290,10 @@ Werner建议基于“大小”的解决方案，我们正在等待其细节。</
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000086">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
-        <obo:IAO_0000112 xml:lang="en">this apple has quality this red color</obo:IAO_0000112> <obo:IAO_0000112 xml:lang="zh">这个苹果具有质量这种红色</obo:IAO_0000112>
-        <obo:IAO_0000115 xml:lang="en">a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence</obo:IAO_0000115> <obo:IAO_0000115 xml:lang="zh">独立延续物（承载者）与质量之间的关系，其中质量专门依赖于承载者而存在</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">A bearer can have many qualities, and its qualities can exist for different periods of time, but none of its qualities can exist when the bearer does not exist.</obo:IAO_0000116> <obo:IAO_0000116 xml:lang="zh">承载者可以具有多种质量，其质量可以存在于不同时间段，但承载者不存在时，其任何质量都不能存在。</obo:IAO_0000116>
-        <rdfs:label xml:lang="en">has quality</rdfs:label> <rdfs:label xml:lang="zh">具有质量</rdfs:label>
+        <obo:IAO_0000112 xml:lang="en">this apple has quality this red color</obo:IAO_0000112> <obo:IAO_0000112 xml:lang="zh">这个苹果具有特性这种红色</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence</obo:IAO_0000115> <obo:IAO_0000115 xml:lang="zh">独立延续物（承载者）与特性之间的关系，其中特性专门依赖于承载者而存在</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">A bearer can have many qualities, and its qualities can exist for different periods of time, but none of its qualities can exist when the bearer does not exist.</obo:IAO_0000116> <obo:IAO_0000116 xml:lang="zh">承载者可以具有多种特性，其特性可以存在于不同时间段，但承载者不存在时，其任何特性都不能存在。</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">has quality</rdfs:label> <rdfs:label xml:lang="zh">具有特性</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1319,8 +1319,8 @@ Werner建议基于“大小”的解决方案，我们正在等待其细节。</
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000092"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
-        <obo:IAO_0000115 xml:lang="en">a relation between an independent continuant (the bearer) and a disposition, in which the disposition specifically depends on the bearer for its existence</obo:IAO_0000115> <obo:IAO_0000115 xml:lang="zh">独立延续物（承载者）与倾向性之间的关系，其中倾向性专门依赖于承载者而存在</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">has disposition</rdfs:label> <rdfs:label xml:lang="zh">具有倾向性</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">a relation between an independent continuant (the bearer) and a disposition, in which the disposition specifically depends on the bearer for its existence</obo:IAO_0000115> <obo:IAO_0000115 xml:lang="zh">独立延续物（承载者）与属性之间的关系，其中属性专门依赖于承载者而存在</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">has disposition</rdfs:label> <rdfs:label xml:lang="zh">具有属性</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1329,9 +1329,9 @@ Werner建议基于“大小”的解决方案，我们正在等待其细节。</
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000092">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-        <obo:IAO_0000115 xml:lang="en">inverse of has disposition</obo:IAO_0000115> <obo:IAO_0000115 xml:lang="zh">具有倾向性的逆关系</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">inverse of has disposition</obo:IAO_0000115> <obo:IAO_0000115 xml:lang="zh">具有属性的逆关系</obo:IAO_0000115>
         <rdfs:comment>This relation is modeled after the BFO relation of the same name which was in BFO2, but is used in a more restricted sense - specifically, we model this relation as functional (inherited from characteristic-of). Note that this relation is now removed from BFO2020.</rdfs:comment>
-        <rdfs:label xml:lang="en">disposition of</rdfs:label> <rdfs:label xml:lang="zh">……的倾向性</rdfs:label>
+        <rdfs:label xml:lang="en">disposition of</rdfs:label> <rdfs:label xml:lang="zh">……的属性</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -11162,8 +11162,8 @@ NOTE: The wording used in EN 10021 was generalized.</obo:IAO_0000116> <obo:IAO_0
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only rhodium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of rhodium</rdfs:label> <rdfs:label xml:lang="zh">铑部分</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of rhodium' is a 'portion of pure chemical element' that 'consists of' only chebi:rhodium atom.</skos:definition> <skos:definition xml:lang="zh">'一份铑' 是 '一份纯化学元素'，其 '由' 仅 chebi:rhodium atom 组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of rhodium</rdfs:label> <rdfs:label xml:lang="zh">铑</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of rhodium' is a 'portion of pure chemical element' that 'consists of' only chebi:rhodium atom.</skos:definition> <skos:definition xml:lang="zh">&apos;铑&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:rhodium atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -11184,8 +11184,8 @@ NOTE: The wording used in EN 10021 was generalized.</obo:IAO_0000116> <obo:IAO_0
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only tellurium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of tellurium</rdfs:label> <rdfs:label xml:lang="zh">碲部分</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of tellurium' is a 'portion of pure chemical element' that 'consists of' only chebi:tellurium atom.</skos:definition> <skos:definition xml:lang="zh">'一份碲' 是 '一份纯化学元素'，其 '由' 仅 chebi:tellurium atom 组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of tellurium</rdfs:label> <rdfs:label xml:lang="zh">碲</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of tellurium' is a 'portion of pure chemical element' that 'consists of' only chebi:tellurium atom.</skos:definition> <skos:definition xml:lang="zh">&apos;碲&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:tellurium atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -11735,7 +11735,7 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only Iron atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of iron</rdfs:label> <rdfs:label xml:lang="zh">铁的部分</rdfs:label>
+        <rdfs:label xml:lang="en">portion of iron</rdfs:label> <rdfs:label xml:lang="zh">铁</rdfs:label>
         <skos:definition xml:lang="en">A 'portion of iron' is a 'Poriton Of Pure Substance' that 'consists of' only chebi:iron atom.</skos:definition> <skos:definition xml:lang="zh">'铁的部分'是'纯物质的部分'，仅由chebi:iron atom组成。</skos:definition>
     </owl:Class>
     
@@ -11757,8 +11757,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only indium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of indium</rdfs:label> <rdfs:label xml:lang="zh">铟的部分</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of indium' is a 'portion of pure chemical element' that 'consists of' only chebi:indium atom.</skos:definition> <skos:definition xml:lang="zh">'铟的部分'是'纯化学元素的部分'，仅由chebi:indium atom组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of indium</rdfs:label> <rdfs:label xml:lang="zh">铟</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of indium' is a 'portion of pure chemical element' that 'consists of' only chebi:indium atom.</skos:definition> <skos:definition xml:lang="zh">&apos;铟&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:indium atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -11779,8 +11779,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only chromium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of chromium</rdfs:label> <rdfs:label xml:lang="zh">铬的部分</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of chromium' is a 'portion of pure chemical element' that 'consists of' only chebi:chromium atom.</skos:definition> <skos:definition xml:lang="zh">'铬的部分'是'纯化学元素的部分'，仅由chebi:chromium atom组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of chromium</rdfs:label> <rdfs:label xml:lang="zh">铬</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of chromium' is a 'portion of pure chemical element' that 'consists of' only chebi:chromium atom.</skos:definition> <skos:definition xml:lang="zh">&apos;铬&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:chromium atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -11801,8 +11801,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only carbon atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of carbon</rdfs:label> <rdfs:label xml:lang="zh">碳的部分</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of carbon' is a 'portion of pure chemical element' that 'consists of' only chebi:carbon atom.</skos:definition> <skos:definition xml:lang="zh">'碳的部分'是'纯化学元素的部分'，仅由chebi:carbon atom组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of carbon</rdfs:label> <rdfs:label xml:lang="zh">碳</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of carbon' is a 'portion of pure chemical element' that 'consists of' only chebi:carbon atom.</skos:definition> <skos:definition xml:lang="zh">&apos;碳&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:carbon atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -11823,8 +11823,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only germanium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of germanium</rdfs:label> <rdfs:label xml:lang="zh">锗的部分</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of germanium' is a 'portion of pure chemical element' that 'consists of' only chebi:germanium atom.</skos:definition> <skos:definition xml:lang="zh">'锗的部分'是'纯化学元素的部分'，仅由chebi:germanium atom组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of germanium</rdfs:label> <rdfs:label xml:lang="zh">锗</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of germanium' is a 'portion of pure chemical element' that 'consists of' only chebi:germanium atom.</skos:definition> <skos:definition xml:lang="zh">&apos;锗&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:germanium atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -11845,8 +11845,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only tungsten atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of tungsten</rdfs:label> <rdfs:label xml:lang="zh">钨的部分</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of tungsten' is a 'portion of pure chemical element' that 'consists of' only chebi:tungsten.</skos:definition> <skos:definition xml:lang="zh">一份'钨'是一份'纯化学元素'，其仅包含chebi:tungsten。</skos:definition>
+        <rdfs:label xml:lang="en">portion of tungsten</rdfs:label> <rdfs:label xml:lang="zh">钨</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of tungsten' is a 'portion of pure chemical element' that 'consists of' only chebi:tungsten.</skos:definition> <skos:definition xml:lang="zh">&apos;钨&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:tungsten组成。</skos:definition>
     </owl:Class>
     
 
@@ -11867,8 +11867,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only erbium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of erbium</rdfs:label> <rdfs:label xml:lang="zh">一份铒</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of erbium' is a 'portion of pure chemical element' that 'consists of' only chebi:erbium.</skos:definition> <skos:definition xml:lang="zh">一份'铒'是一份'纯化学元素'，其仅包含chebi:erbium。</skos:definition>
+        <rdfs:label xml:lang="en">portion of erbium</rdfs:label> <rdfs:label xml:lang="zh">铒</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of erbium' is a 'portion of pure chemical element' that 'consists of' only chebi:erbium.</skos:definition> <skos:definition xml:lang="zh">&apos;铒&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:erbium组成。</skos:definition>
     </owl:Class>
     
 
@@ -11889,8 +11889,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only molybdenum atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of molybdenum</rdfs:label> <rdfs:label xml:lang="zh">一份钼</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of molybdenum' is a 'portion of pure chemical element' that 'consists of' only chebi:molybdenum atom.</skos:definition> <skos:definition xml:lang="zh">一份'钼'是一份'纯化学元素'，其仅包含chebi:molybdenum atom。</skos:definition>
+        <rdfs:label xml:lang="en">portion of molybdenum</rdfs:label> <rdfs:label xml:lang="zh">钼</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of molybdenum' is a 'portion of pure chemical element' that 'consists of' only chebi:molybdenum atom.</skos:definition> <skos:definition xml:lang="zh">&apos;钼&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:molybdenum atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -11911,8 +11911,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only niobium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of niobium</rdfs:label> <rdfs:label xml:lang="zh">一份铌</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of niobium' is a 'portion of pure chemical element' that 'consists of' only chebi:niobium atom.</skos:definition> <skos:definition xml:lang="zh">一份'铌'是一份'纯化学元素'，其仅包含chebi:niobium atom。</skos:definition>
+        <rdfs:label xml:lang="en">portion of niobium</rdfs:label> <rdfs:label xml:lang="zh">铌</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of niobium' is a 'portion of pure chemical element' that 'consists of' only chebi:niobium atom.</skos:definition> <skos:definition xml:lang="zh">&apos;铌&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:niobium atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -11933,8 +11933,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only rhenium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of rhenium</rdfs:label> <rdfs:label xml:lang="zh">一份铼</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of rhenium' is a 'portion of pure chemical element' that 'consists of' only chebi:rhenium atom.</skos:definition> <skos:definition xml:lang="zh">一份'铼'是一份'纯化学元素'，其仅包含chebi:rhenium atom。</skos:definition>
+        <rdfs:label xml:lang="en">portion of rhenium</rdfs:label> <rdfs:label xml:lang="zh">铼</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of rhenium' is a 'portion of pure chemical element' that 'consists of' only chebi:rhenium atom.</skos:definition> <skos:definition xml:lang="zh">&apos;铼&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:rhenium atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -11955,8 +11955,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only lithium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of lithium</rdfs:label> <rdfs:label xml:lang="zh">一份锂</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of lithium' is a 'portion of pure chemical element' that 'consists of' only chebi:lithium atom.</skos:definition> <skos:definition xml:lang="zh">一份'锂'是一份'纯化学元素'，其仅包含chebi:lithium atom。</skos:definition>
+        <rdfs:label xml:lang="en">portion of lithium</rdfs:label> <rdfs:label xml:lang="zh">锂</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of lithium' is a 'portion of pure chemical element' that 'consists of' only chebi:lithium atom.</skos:definition> <skos:definition xml:lang="zh">&apos;锂&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:lithium atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -11977,8 +11977,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only nitrogen atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of nitrogen</rdfs:label> <rdfs:label xml:lang="zh">一份氮</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of nitrogen' is a 'portion of pure chemical element' that 'consists of' only chebi:nitrogen atom.</skos:definition> <skos:definition xml:lang="zh">一份'氮'是一份'纯化学元素'，其仅包含chebi:nitrogen atom。</skos:definition>
+        <rdfs:label xml:lang="en">portion of nitrogen</rdfs:label> <rdfs:label xml:lang="zh">氮</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of nitrogen' is a 'portion of pure chemical element' that 'consists of' only chebi:nitrogen atom.</skos:definition> <skos:definition xml:lang="zh">&apos;氮&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:nitrogen atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -11999,8 +11999,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only cobalt atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of cobalt</rdfs:label> <rdfs:label xml:lang="zh">一份钴</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of cobalt' is a 'portion of pure chemical element' that 'consists of' only chebi:cobalt atom.</skos:definition> <skos:definition xml:lang="zh">一份'钴'是一份'纯化学元素'，其仅包含chebi:cobalt atom。</skos:definition>
+        <rdfs:label xml:lang="en">portion of cobalt</rdfs:label> <rdfs:label xml:lang="zh">钴</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of cobalt' is a 'portion of pure chemical element' that 'consists of' only chebi:cobalt atom.</skos:definition> <skos:definition xml:lang="zh">&apos;钴&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:cobalt atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12021,8 +12021,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only gold atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of gold</rdfs:label> <rdfs:label xml:lang="zh">一份金</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of gold' is a 'portion of pure chemical element' that 'consists of' only chebi:gold atom.</skos:definition> <skos:definition xml:lang="zh">一份'金'是一份'纯化学元素'，其仅包含chebi:gold atom。</skos:definition>
+        <rdfs:label xml:lang="en">portion of gold</rdfs:label> <rdfs:label xml:lang="zh">金</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of gold' is a 'portion of pure chemical element' that 'consists of' only chebi:gold atom.</skos:definition> <skos:definition xml:lang="zh">&apos;金&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:gold atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12043,8 +12043,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only argon atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of argon</rdfs:label> <rdfs:label xml:lang="zh">一份氩</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of argon' is a 'portion of pure chemical element' that 'consists of' only chebi:argon atom.</skos:definition> <skos:definition xml:lang="zh">一份'氩'是一份'纯化学元素'，其仅包含chebi:argon atom。</skos:definition>
+        <rdfs:label xml:lang="en">portion of argon</rdfs:label> <rdfs:label xml:lang="zh">氩</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of argon' is a 'portion of pure chemical element' that 'consists of' only chebi:argon atom.</skos:definition> <skos:definition xml:lang="zh">&apos;氩&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:argon atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12065,8 +12065,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only cadmium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of cadmium</rdfs:label> <rdfs:label xml:lang="zh">一份镉</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of cadmium' is a 'portion of pure chemical element' that 'consists of' only chebi:cadmium atom.</skos:definition> <skos:definition xml:lang="zh">一份'镉'是一份'纯化学元素'，其仅包含chebi:cadmium atom。</skos:definition>
+        <rdfs:label xml:lang="en">portion of cadmium</rdfs:label> <rdfs:label xml:lang="zh">镉</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of cadmium' is a 'portion of pure chemical element' that 'consists of' only chebi:cadmium atom.</skos:definition> <skos:definition xml:lang="zh">&apos;镉&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:cadmium atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12087,8 +12087,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only barium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of barium</rdfs:label> <rdfs:label xml:lang="zh">一份钡</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of barium' is a 'portion of pure chemical element' that 'consists of' only chebi:barium atom.</skos:definition> <skos:definition xml:lang="zh">一份'钡'是一份'纯化学元素'，其仅包含chebi:barium atom。</skos:definition>
+        <rdfs:label xml:lang="en">portion of barium</rdfs:label> <rdfs:label xml:lang="zh">钡</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of barium' is a 'portion of pure chemical element' that 'consists of' only chebi:barium atom.</skos:definition> <skos:definition xml:lang="zh">&apos;钡&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:barium atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12109,8 +12109,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only tantalum atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of tantalum</rdfs:label> <rdfs:label xml:lang="zh">一份钽</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of tantalum' is a 'portion of pure chemical element' that 'consists of' only chebi:tantalum atom.</skos:definition> <skos:definition xml:lang="zh">一份'钽'是一份'纯化学元素'，其仅包含chebi:tantalum atom。</skos:definition>
+        <rdfs:label xml:lang="en">portion of tantalum</rdfs:label> <rdfs:label xml:lang="zh">钽</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of tantalum' is a 'portion of pure chemical element' that 'consists of' only chebi:tantalum atom.</skos:definition> <skos:definition xml:lang="zh">&apos;钽&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:tantalum atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12131,8 +12131,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only antimony atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of antimony</rdfs:label> <rdfs:label xml:lang="zh">一份锑</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of antimony' is a 'portion of pure chemical element' that 'consists of' only chebi:antimony atom.</skos:definition> <skos:definition xml:lang="zh">'一份锑'是'一份纯化学元素'，它'由'仅chebi:antimony atom组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of antimony</rdfs:label> <rdfs:label xml:lang="zh">锑</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of antimony' is a 'portion of pure chemical element' that 'consists of' only chebi:antimony atom.</skos:definition> <skos:definition xml:lang="zh">&apos;锑&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:antimony atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12153,8 +12153,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only potassium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of potassium</rdfs:label> <rdfs:label xml:lang="zh">一份钾</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of potassium' is a 'portion of pure chemical element' that 'consists of' only chebi:potassium atom.</skos:definition> <skos:definition xml:lang="zh">'一份钾'是'一份纯化学元素'，它'由'仅chebi:potassium atom组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of potassium</rdfs:label> <rdfs:label xml:lang="zh">钾</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of potassium' is a 'portion of pure chemical element' that 'consists of' only chebi:potassium atom.</skos:definition> <skos:definition xml:lang="zh">&apos;钾&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:potassium atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12175,8 +12175,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only phosphorus atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of phosphorus</rdfs:label> <rdfs:label xml:lang="zh">一份磷</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of phosphorus' is a 'portion of pure chemical element' that 'consists of' only chebi:phosphorus atom.</skos:definition> <skos:definition xml:lang="zh">'一份磷'是'一份纯化学元素'，它'由'仅chebi:phosphorus atom组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of phosphorus</rdfs:label> <rdfs:label xml:lang="zh">磷</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of phosphorus' is a 'portion of pure chemical element' that 'consists of' only chebi:phosphorus atom.</skos:definition> <skos:definition xml:lang="zh">&apos;磷&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:phosphorus atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12197,8 +12197,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only boron atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of boron</rdfs:label> <rdfs:label xml:lang="zh">一份硼</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of boron' is a 'portion of pure chemical element' that 'consists of' only chebi:boron atom.</skos:definition> <skos:definition xml:lang="zh">'一份硼'是'一份纯化学元素'，它'由'仅chebi:boron atom组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of boron</rdfs:label> <rdfs:label xml:lang="zh">硼</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of boron' is a 'portion of pure chemical element' that 'consists of' only chebi:boron atom.</skos:definition> <skos:definition xml:lang="zh">&apos;硼&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:boron atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12219,8 +12219,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only helium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of helium</rdfs:label> <rdfs:label xml:lang="zh">一份氦</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of helium' is a 'portion of pure chemical element' that 'consists of' only chebi:helium atom.</skos:definition> <skos:definition xml:lang="zh">'一份氦'是'一份纯化学元素'，它'由'仅chebi:helium atom组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of helium</rdfs:label> <rdfs:label xml:lang="zh">氦</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of helium' is a 'portion of pure chemical element' that 'consists of' only chebi:helium atom.</skos:definition> <skos:definition xml:lang="zh">&apos;氦&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:helium atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12251,8 +12251,8 @@ To understand the difference between the composition and the composition data it
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only silicon atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of silicon</rdfs:label> <rdfs:label xml:lang="zh">一份硅</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of silicon' is a 'portion of pure chemical element' that 'consists of' only chebi:silicon atom.</skos:definition> <skos:definition xml:lang="zh">'一份硅'是'一份纯化学元素'，它'由'仅chebi:silicon atom组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of silicon</rdfs:label> <rdfs:label xml:lang="zh">硅</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of silicon' is a 'portion of pure chemical element' that 'consists of' only chebi:silicon atom.</skos:definition> <skos:definition xml:lang="zh">&apos;硅&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:silicon atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12273,8 +12273,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only nickel atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of nickel</rdfs:label> <rdfs:label xml:lang="zh">一份镍</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of nickel' is a 'portion of pure chemical element' that 'consists of' only chebi:nickel atom.</skos:definition> <skos:definition xml:lang="zh">'一份镍'是'一份纯化学元素'，它'由'仅chebi:nickel atom组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of nickel</rdfs:label> <rdfs:label xml:lang="zh">镍</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of nickel' is a 'portion of pure chemical element' that 'consists of' only chebi:nickel atom.</skos:definition> <skos:definition xml:lang="zh">&apos;镍&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:nickel atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12295,8 +12295,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only yttrium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of yttrium</rdfs:label> <rdfs:label xml:lang="zh">一份钇</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of yttrium' is a 'portion of pure chemical element' that 'consists of' only chebi:yttrium atom.</skos:definition> <skos:definition xml:lang="zh">'一份钇'是'一份纯化学元素'，它'由'仅chebi:yttrium atom组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of yttrium</rdfs:label> <rdfs:label xml:lang="zh">钇</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of yttrium' is a 'portion of pure chemical element' that 'consists of' only chebi:yttrium atom.</skos:definition> <skos:definition xml:lang="zh">&apos;钇&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:yttrium atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12317,8 +12317,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only zirconium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of zirconium</rdfs:label> <rdfs:label xml:lang="zh">一份锆</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of zirconium' is a 'portion of pure chemical element' that 'consists of' only chebi:zirconium atom.</skos:definition> <skos:definition xml:lang="zh">'一份锆'是'一份纯化学元素'，它'由'仅chebi:zirconium atom组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of zirconium</rdfs:label> <rdfs:label xml:lang="zh">锆</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of zirconium' is a 'portion of pure chemical element' that 'consists of' only chebi:zirconium atom.</skos:definition> <skos:definition xml:lang="zh">&apos;锆&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:zirconium atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12339,8 +12339,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only copper atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of copper</rdfs:label> <rdfs:label xml:lang="zh">一份铜</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of copper' is a 'portion of pure chemical element' that 'consists of' only chebi:copper atom.</skos:definition> <skos:definition xml:lang="zh">'一份铜'是'一份纯化学元素'，它'由'仅chebi:copper atom组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of copper</rdfs:label> <rdfs:label xml:lang="zh">铜</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of copper' is a 'portion of pure chemical element' that 'consists of' only chebi:copper atom.</skos:definition> <skos:definition xml:lang="zh">&apos;铜&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:copper atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12361,8 +12361,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only bohrium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of bohrium</rdfs:label> <rdfs:label xml:lang="zh">一份𬭛</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of bohrium' is a 'portion of pure chemical element' that 'consists of' only chebi:bohrium atom.</skos:definition> <skos:definition xml:lang="zh">'一份𬭛'是'一份纯化学元素'，它'由'仅chebi:bohrium atom组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of bohrium</rdfs:label> <rdfs:label xml:lang="zh">𬭛</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of bohrium' is a 'portion of pure chemical element' that 'consists of' only chebi:bohrium atom.</skos:definition> <skos:definition xml:lang="zh">&apos;𬭛&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:bohrium atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12383,8 +12383,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only fluorine atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of fluorine</rdfs:label> <rdfs:label xml:lang="zh">一份氟</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of fluorine' is a 'portion of pure chemical element' that 'consists of' only chebi:fluorine atom.</skos:definition> <skos:definition xml:lang="zh">'一份氟'是'一份纯化学元素'，它'由'仅chebi:fluorine atom组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of fluorine</rdfs:label> <rdfs:label xml:lang="zh">氟</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of fluorine' is a 'portion of pure chemical element' that 'consists of' only chebi:fluorine atom.</skos:definition> <skos:definition xml:lang="zh">&apos;氟&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:fluorine atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12405,8 +12405,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only platinum atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of platinum</rdfs:label> <rdfs:label xml:lang="zh">一份铂</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of platinum' is a 'portion of pure chemical element' that 'consists of' only chebi:platinum.</skos:definition> <skos:definition xml:lang="zh">一份'铂'是一份'纯化学元素'，且仅由 chebi:platinum 组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of platinum</rdfs:label> <rdfs:label xml:lang="zh">铂</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of platinum' is a 'portion of pure chemical element' that 'consists of' only chebi:platinum.</skos:definition> <skos:definition xml:lang="zh">&apos;铂&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:platinum组成。</skos:definition>
     </owl:Class>
     
 
@@ -12427,8 +12427,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only cerium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of cerium</rdfs:label> <rdfs:label xml:lang="zh">一份铈</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of cerium' is a 'portion of pure chemical element' that 'consists of' only chebi:cerium.</skos:definition> <skos:definition xml:lang="zh">一份'铈'是一份'纯化学元素'，且仅由 chebi:cerium 组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of cerium</rdfs:label> <rdfs:label xml:lang="zh">铈</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of cerium' is a 'portion of pure chemical element' that 'consists of' only chebi:cerium.</skos:definition> <skos:definition xml:lang="zh">&apos;铈&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:cerium组成。</skos:definition>
     </owl:Class>
     
 
@@ -12449,8 +12449,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only sulfur atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of sulfur</rdfs:label> <rdfs:label xml:lang="zh">一份硫</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of sulfur' is a 'portion of pure chemical element' that 'consists of' only chebi:sulfur atom.</skos:definition> <skos:definition xml:lang="zh">一份'硫'是一份'纯化学元素'，且仅由 chebi:sulfur atom 组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of sulfur</rdfs:label> <rdfs:label xml:lang="zh">硫</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of sulfur' is a 'portion of pure chemical element' that 'consists of' only chebi:sulfur atom.</skos:definition> <skos:definition xml:lang="zh">&apos;硫&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:sulfur atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12471,8 +12471,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only lead atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of lead</rdfs:label> <rdfs:label xml:lang="zh">一份铅</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of lead' is a 'portion of pure chemical element' that 'consists of' only chebi:lead atom.</skos:definition> <skos:definition xml:lang="zh">一份'铅'是一份'纯化学元素'，且仅由 chebi:lead atom 组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of lead</rdfs:label> <rdfs:label xml:lang="zh">铅</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of lead' is a 'portion of pure chemical element' that 'consists of' only chebi:lead atom.</skos:definition> <skos:definition xml:lang="zh">&apos;铅&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:lead atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12493,8 +12493,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only krypton atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of krypton</rdfs:label> <rdfs:label xml:lang="zh">一份氪</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of krypton' is a 'portion of pure chemical element' that 'consists of' only chebi:krypton atom.</skos:definition> <skos:definition xml:lang="zh">一份'氪'是一份'纯化学元素'，且仅由 chebi:krypton atom 组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of krypton</rdfs:label> <rdfs:label xml:lang="zh">氪</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of krypton' is a 'portion of pure chemical element' that 'consists of' only chebi:krypton atom.</skos:definition> <skos:definition xml:lang="zh">&apos;氪&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:krypton atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12515,8 +12515,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only bismuth atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of bismuth</rdfs:label> <rdfs:label xml:lang="zh">一份铋</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of bismuth' is a 'portion of pure chemical element' that 'consists of' only chebi:bismuth atom.</skos:definition> <skos:definition xml:lang="zh">一份'铋'是一份'纯化学元素'，且仅由 chebi:bismuth atom 组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of bismuth</rdfs:label> <rdfs:label xml:lang="zh">铋</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of bismuth' is a 'portion of pure chemical element' that 'consists of' only chebi:bismuth atom.</skos:definition> <skos:definition xml:lang="zh">&apos;铋&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:bismuth atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12537,8 +12537,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only neon atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of neon</rdfs:label> <rdfs:label xml:lang="zh">一份氖</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of neon' is a 'portion of pure chemical element' that 'consists of' only chebi:neon atom.</skos:definition> <skos:definition xml:lang="zh">一份'氖'是一份'纯化学元素'，且仅由 chebi:neon atom 组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of neon</rdfs:label> <rdfs:label xml:lang="zh">氖</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of neon' is a 'portion of pure chemical element' that 'consists of' only chebi:neon atom.</skos:definition> <skos:definition xml:lang="zh">&apos;氖&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:neon atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12559,8 +12559,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only thallium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of thallium</rdfs:label> <rdfs:label xml:lang="zh">一份铊</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of thallium' is a 'portion of pure chemical element' that 'consists of' only chebi:thallium.</skos:definition> <skos:definition xml:lang="zh">一份'铊'是一份'纯化学元素'，且仅由 chebi:thallium 组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of thallium</rdfs:label> <rdfs:label xml:lang="zh">铊</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of thallium' is a 'portion of pure chemical element' that 'consists of' only chebi:thallium.</skos:definition> <skos:definition xml:lang="zh">&apos;铊&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:thallium组成。</skos:definition>
     </owl:Class>
     
 
@@ -12581,8 +12581,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only selenium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of selenium</rdfs:label> <rdfs:label xml:lang="zh">一份硒</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of selenium' is a 'portion of pure chemical element' that 'consists of' only chebi:selenium atom.</skos:definition> <skos:definition xml:lang="zh">一份'硒'是一份'纯化学元素'，且仅由 chebi:selenium atom 组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of selenium</rdfs:label> <rdfs:label xml:lang="zh">硒</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of selenium' is a 'portion of pure chemical element' that 'consists of' only chebi:selenium atom.</skos:definition> <skos:definition xml:lang="zh">&apos;硒&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:selenium atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12603,8 +12603,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only ruthenium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of ruthenium</rdfs:label> <rdfs:label xml:lang="zh">一份钌</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of ruthenium' is a 'portion of pure chemical element' that 'consists of' only chebi:ruthenium atom.</skos:definition> <skos:definition xml:lang="zh">一份'钌'是一份'纯化学元素'，且仅由 chebi:ruthenium atom 组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of ruthenium</rdfs:label> <rdfs:label xml:lang="zh">钌</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of ruthenium' is a 'portion of pure chemical element' that 'consists of' only chebi:ruthenium atom.</skos:definition> <skos:definition xml:lang="zh">&apos;钌&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:ruthenium atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12625,8 +12625,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only magnesium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of magnesium</rdfs:label> <rdfs:label xml:lang="zh">一份镁</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of magnesium' is a 'portion of pure chemical element' that 'consists of' only chebi:magnesium atom.</skos:definition> <skos:definition xml:lang="zh">一份'镁'是一份'纯化学元素'，且仅由 chebi:magnesium atom 组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of magnesium</rdfs:label> <rdfs:label xml:lang="zh">镁</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of magnesium' is a 'portion of pure chemical element' that 'consists of' only chebi:magnesium atom.</skos:definition> <skos:definition xml:lang="zh">&apos;镁&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:magnesium atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12647,8 +12647,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only zinc atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of zinc</rdfs:label> <rdfs:label xml:lang="zh">一份锌</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of zinc' is a 'portion of pure chemical element' that 'consists of' only chebi:zinc atom.</skos:definition> <skos:definition xml:lang="zh">一份'锌'是一份'纯化学元素'，且仅由 chebi:zinc atom 组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of zinc</rdfs:label> <rdfs:label xml:lang="zh">锌</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of zinc' is a 'portion of pure chemical element' that 'consists of' only chebi:zinc atom.</skos:definition> <skos:definition xml:lang="zh">&apos;锌&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:zinc atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12669,8 +12669,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only mercury atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of mercury</rdfs:label> <rdfs:label xml:lang="zh">一份汞</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of mercury' is a 'portion of pure chemical element' that 'consists of' only chebi:mercury atom.</skos:definition> <skos:definition xml:lang="zh">一份'汞'是一份'纯化学元素'，且仅由 chebi:mercury atom 组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of mercury</rdfs:label> <rdfs:label xml:lang="zh">汞</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of mercury' is a 'portion of pure chemical element' that 'consists of' only chebi:mercury atom.</skos:definition> <skos:definition xml:lang="zh">&apos;汞&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:mercury atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12691,8 +12691,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only xenon atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of xenon</rdfs:label> <rdfs:label xml:lang="zh">一份氙</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of xenon' is a 'portion of pure chemical element' that 'consists of' only chebi:xenon atom.</skos:definition> <skos:definition xml:lang="zh">一份氙是一个一份纯化学元素，它只由chebi:氙原子组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of xenon</rdfs:label> <rdfs:label xml:lang="zh">氙</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of xenon' is a 'portion of pure chemical element' that 'consists of' only chebi:xenon atom.</skos:definition> <skos:definition xml:lang="zh">&apos;氙&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:xenon atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12713,8 +12713,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only aluminium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of aluminium</rdfs:label> <rdfs:label xml:lang="zh">一份铝</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of aluminium' is a 'portion of pure chemical element' that 'consists of' only chebi:aluminium atom.</skos:definition> <skos:definition xml:lang="zh">一份铝是一个一份纯化学元素，它只由chebi:铝原子组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of aluminium</rdfs:label> <rdfs:label xml:lang="zh">铝</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of aluminium' is a 'portion of pure chemical element' that 'consists of' only chebi:aluminium atom.</skos:definition> <skos:definition xml:lang="zh">&apos;铝&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:aluminium atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12735,8 +12735,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only sodium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of sodium</rdfs:label> <rdfs:label xml:lang="zh">一份钠</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of sodium' is a 'portion of pure chemical element' that 'consists of' only chebi:sodium atom.</skos:definition> <skos:definition xml:lang="zh">一份钠是一个一份纯化学元素，它只由chebi:钠原子组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of sodium</rdfs:label> <rdfs:label xml:lang="zh">钠</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of sodium' is a 'portion of pure chemical element' that 'consists of' only chebi:sodium atom.</skos:definition> <skos:definition xml:lang="zh">&apos;钠&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:sodium atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12757,8 +12757,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only iodine atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of iodine</rdfs:label> <rdfs:label xml:lang="zh">一份碘</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of iodine' is a 'portion of pure chemical element' that 'consists of' only chebi:iodine atom.</skos:definition> <skos:definition xml:lang="zh">一份碘是一个一份纯化学元素，它只由chebi:碘原子组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of iodine</rdfs:label> <rdfs:label xml:lang="zh">碘</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of iodine' is a 'portion of pure chemical element' that 'consists of' only chebi:iodine atom.</skos:definition> <skos:definition xml:lang="zh">&apos;碘&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:iodine atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12779,8 +12779,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only caesium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of caesium</rdfs:label> <rdfs:label xml:lang="zh">一份铯</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of caesium' is a 'portion of pure chemical element' that 'consists of' only chebi:caesium atom.</skos:definition> <skos:definition xml:lang="zh">一份铯是一个一份纯化学元素，它只由chebi:铯原子组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of caesium</rdfs:label> <rdfs:label xml:lang="zh">铯</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of caesium' is a 'portion of pure chemical element' that 'consists of' only chebi:caesium atom.</skos:definition> <skos:definition xml:lang="zh">&apos;铯&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:caesium atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12801,8 +12801,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only chlorine atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of chlorine</rdfs:label> <rdfs:label xml:lang="zh">一份氯</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of chlorine' is a 'portion of pure chemical element' that 'consists of' only chebi:chlorine atom.</skos:definition> <skos:definition xml:lang="zh">一份氯是一个一份纯化学元素，它只由chebi:氯原子组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of chlorine</rdfs:label> <rdfs:label xml:lang="zh">氯</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of chlorine' is a 'portion of pure chemical element' that 'consists of' only chebi:chlorine atom.</skos:definition> <skos:definition xml:lang="zh">&apos;氯&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:chlorine atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12823,8 +12823,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only silver atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of silver</rdfs:label> <rdfs:label xml:lang="zh">一份银</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of silver' is a 'portion of pure chemical element' that 'consists of' only chebi:silver atom.</skos:definition> <skos:definition xml:lang="zh">一份银是一个一份纯化学元素，它只由chebi:银原子组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of silver</rdfs:label> <rdfs:label xml:lang="zh">银</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of silver' is a 'portion of pure chemical element' that 'consists of' only chebi:silver atom.</skos:definition> <skos:definition xml:lang="zh">&apos;银&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:silver atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12845,8 +12845,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only samarium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of samarium</rdfs:label> <rdfs:label xml:lang="zh">一份钐</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of samarium' is a 'portion of pure chemical element' that 'consists of' only chebi:samarium atom.</skos:definition> <skos:definition xml:lang="zh">一份钐是一个一份纯化学元素，它只由chebi:钐原子组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of samarium</rdfs:label> <rdfs:label xml:lang="zh">钐</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of samarium' is a 'portion of pure chemical element' that 'consists of' only chebi:samarium atom.</skos:definition> <skos:definition xml:lang="zh">&apos;钐&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:samarium atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12867,8 +12867,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only manganese atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of manganese</rdfs:label> <rdfs:label xml:lang="zh">一份锰</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of manganese' is a 'portion of pure chemical element' that 'consists of' only chebi:manganese atom.</skos:definition> <skos:definition xml:lang="zh">一份锰是一个一份纯化学元素，它只由chebi:锰原子组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of manganese</rdfs:label> <rdfs:label xml:lang="zh">锰</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of manganese' is a 'portion of pure chemical element' that 'consists of' only chebi:manganese atom.</skos:definition> <skos:definition xml:lang="zh">&apos;锰&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:manganese atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12889,8 +12889,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only arsenic atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of arsenic</rdfs:label> <rdfs:label xml:lang="zh">一份砷</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of arsenic' is a 'portion of pure chemical element' that 'consists of' only chebi:arsenic atom.</skos:definition> <skos:definition xml:lang="zh">一份砷是一个一份纯化学元素，它只由chebi:砷原子组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of arsenic</rdfs:label> <rdfs:label xml:lang="zh">砷</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of arsenic' is a 'portion of pure chemical element' that 'consists of' only chebi:arsenic atom.</skos:definition> <skos:definition xml:lang="zh">&apos;砷&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:arsenic atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12911,8 +12911,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only beryllium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of beryllium</rdfs:label> <rdfs:label xml:lang="zh">一份铍</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of beryllium' is a 'portion of pure chemical element' that 'consists of' only chebi:beryllium atom.</skos:definition> <skos:definition xml:lang="zh">一份铍是一个一份纯化学元素，它只由chebi:铍原子组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of beryllium</rdfs:label> <rdfs:label xml:lang="zh">铍</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of beryllium' is a 'portion of pure chemical element' that 'consists of' only chebi:beryllium atom.</skos:definition> <skos:definition xml:lang="zh">&apos;铍&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:beryllium atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12933,8 +12933,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only calcium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of calcium</rdfs:label> <rdfs:label xml:lang="zh">一份钙</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of calcium' is a 'portion of pure chemical element' that 'consists of' only chebi:calcium atom.</skos:definition> <skos:definition xml:lang="zh">一份钙是一个一份纯化学元素，它只由chebi:钙原子组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of calcium</rdfs:label> <rdfs:label xml:lang="zh">钙</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of calcium' is a 'portion of pure chemical element' that 'consists of' only chebi:calcium atom.</skos:definition> <skos:definition xml:lang="zh">&apos;钙&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:calcium atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12955,8 +12955,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only neodymium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of neodymium</rdfs:label> <rdfs:label xml:lang="zh">一份钕</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of neodymium' is a 'portion of pure chemical element' that 'consists of' only chebi:neodymium atom.</skos:definition> <skos:definition xml:lang="zh">一份钕是一份纯化学元素，仅由chebi:neodymium原子组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of neodymium</rdfs:label> <rdfs:label xml:lang="zh">钕</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of neodymium' is a 'portion of pure chemical element' that 'consists of' only chebi:neodymium atom.</skos:definition> <skos:definition xml:lang="zh">&apos;钕&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:neodymium atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12977,8 +12977,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only hydrogen atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of hydrogen</rdfs:label> <rdfs:label xml:lang="zh">一份氢</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of hydrogen' is a 'portion of pure chemical element' that 'consists of' only chebi:hydrogen atom.</skos:definition> <skos:definition xml:lang="zh">一份氢是一份纯化学元素，仅由chebi:hydrogen原子组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of hydrogen</rdfs:label> <rdfs:label xml:lang="zh">氢</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of hydrogen' is a 'portion of pure chemical element' that 'consists of' only chebi:hydrogen atom.</skos:definition> <skos:definition xml:lang="zh">&apos;氢&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:hydrogen atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -12999,8 +12999,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only osmium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of osmium</rdfs:label> <rdfs:label xml:lang="zh">一份锇</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of osmium' is a 'portion of pure chemical element' that 'consists of' only chebi:osmium atom.</skos:definition> <skos:definition xml:lang="zh">一份锇是一份纯化学元素，仅由chebi:osmium原子组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of osmium</rdfs:label> <rdfs:label xml:lang="zh">锇</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of osmium' is a 'portion of pure chemical element' that 'consists of' only chebi:osmium atom.</skos:definition> <skos:definition xml:lang="zh">&apos;锇&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:osmium atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -13021,8 +13021,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only iridium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of iridium</rdfs:label> <rdfs:label xml:lang="zh">一份铱</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of iridium' is a 'portion of pure chemical element' that 'consists of' only chebi:iridium atom.</skos:definition> <skos:definition xml:lang="zh">一份铱是一份纯化学元素，仅由chebi:iridium原子组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of iridium</rdfs:label> <rdfs:label xml:lang="zh">铱</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of iridium' is a 'portion of pure chemical element' that 'consists of' only chebi:iridium atom.</skos:definition> <skos:definition xml:lang="zh">&apos;铱&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:iridium atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -13043,8 +13043,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only gallium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of gallium</rdfs:label> <rdfs:label xml:lang="zh">一份镓</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of gallium' is a 'portion of pure chemical element' that 'consists of' only chebi:gallium atom.</skos:definition> <skos:definition xml:lang="zh">一份镓是一份纯化学元素，仅由chebi:gallium原子组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of gallium</rdfs:label> <rdfs:label xml:lang="zh">镓</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of gallium' is a 'portion of pure chemical element' that 'consists of' only chebi:gallium atom.</skos:definition> <skos:definition xml:lang="zh">&apos;镓&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:gallium atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -13065,8 +13065,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only bromine atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of bromine</rdfs:label> <rdfs:label xml:lang="zh">一份溴</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of bromine' is a 'portion of pure chemical element' that 'consists of' only chebi:bromine atom.</skos:definition> <skos:definition xml:lang="zh">一份溴是一份纯化学元素，仅由chebi:bromine原子组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of bromine</rdfs:label> <rdfs:label xml:lang="zh">溴</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of bromine' is a 'portion of pure chemical element' that 'consists of' only chebi:bromine atom.</skos:definition> <skos:definition xml:lang="zh">&apos;溴&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:bromine atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -13087,8 +13087,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only tin atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of tin</rdfs:label> <rdfs:label xml:lang="zh">一份锡</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of tin' is a 'portion of pure chemical element' that 'consists of' only chebi:tin atom.</skos:definition> <skos:definition xml:lang="zh">一份锡是一份纯化学元素，仅由chebi:tin原子组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of tin</rdfs:label> <rdfs:label xml:lang="zh">锡</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of tin' is a 'portion of pure chemical element' that 'consists of' only chebi:tin atom.</skos:definition> <skos:definition xml:lang="zh">&apos;锡&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:tin atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -13109,8 +13109,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only hafnium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of hafnium</rdfs:label> <rdfs:label xml:lang="zh">一份铪</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of hafnium' is a 'portion of pure chemical element' that 'consists of' only chebi:hafnium atom.</skos:definition> <skos:definition xml:lang="zh">一份铪是一份纯化学元素，仅由chebi:hafnium原子组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of hafnium</rdfs:label> <rdfs:label xml:lang="zh">铪</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of hafnium' is a 'portion of pure chemical element' that 'consists of' only chebi:hafnium atom.</skos:definition> <skos:definition xml:lang="zh">&apos;铪&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:hafnium atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -13131,8 +13131,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only uranium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of uranium</rdfs:label> <rdfs:label xml:lang="zh">一份铀</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of uranium' is a 'portion of pure chemical element' that 'consists of' only chebi:uranium atom.</skos:definition> <skos:definition xml:lang="zh">一份铀是一份纯化学元素，仅由chebi:uranium原子组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of uranium</rdfs:label> <rdfs:label xml:lang="zh">铀</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of uranium' is a 'portion of pure chemical element' that 'consists of' only chebi:uranium atom.</skos:definition> <skos:definition xml:lang="zh">&apos;铀&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:uranium atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -13153,8 +13153,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only oxygen atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of oxygen</rdfs:label> <rdfs:label xml:lang="zh">一份氧</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of oxygen' is a 'portion of pure chemical element' that 'consists of' only chebi:oxygen atom.</skos:definition> <skos:definition xml:lang="zh">一份氧是一份纯化学元素，仅由chebi:oxygen原子组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of oxygen</rdfs:label> <rdfs:label xml:lang="zh">氧</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of oxygen' is a 'portion of pure chemical element' that 'consists of' only chebi:oxygen atom.</skos:definition> <skos:definition xml:lang="zh">&apos;氧&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:oxygen atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -13175,8 +13175,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only palladium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of palladium</rdfs:label> <rdfs:label xml:lang="zh">一份钯</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of palladium' is a 'portion of pure chemical element' that 'consists of' only chebi:palladium.</skos:definition> <skos:definition xml:lang="zh">一份钯是一份纯化学元素，仅由chebi:palladium组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of palladium</rdfs:label> <rdfs:label xml:lang="zh">钯</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of palladium' is a 'portion of pure chemical element' that 'consists of' only chebi:palladium.</skos:definition> <skos:definition xml:lang="zh">&apos;钯&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:palladium组成。</skos:definition>
     </owl:Class>
     
 
@@ -13197,8 +13197,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only vanadium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of vanadium</rdfs:label> <rdfs:label xml:lang="zh">一份钒</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of vanadium' is a 'portion of pure chemical element' that 'consists of' only chebi:vanadium atom.</skos:definition> <skos:definition xml:lang="zh">一份钒是一份纯化学元素，仅由chebi:vanadium原子组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of vanadium</rdfs:label> <rdfs:label xml:lang="zh">钒</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of vanadium' is a 'portion of pure chemical element' that 'consists of' only chebi:vanadium atom.</skos:definition> <skos:definition xml:lang="zh">&apos;钒&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:vanadium atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -13219,8 +13219,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only scandium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of scandium</rdfs:label> <rdfs:label xml:lang="zh">一份钪</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of scandium' is a 'portion of pure chemical element' that 'consists of' only chebi:scandium atom.</skos:definition> <skos:definition xml:lang="zh">一份钪是一份纯化学元素，仅由chebi:scandium原子组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of scandium</rdfs:label> <rdfs:label xml:lang="zh">钪</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of scandium' is a 'portion of pure chemical element' that 'consists of' only chebi:scandium atom.</skos:definition> <skos:definition xml:lang="zh">&apos;钪&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:scandium atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -13241,8 +13241,8 @@ To understand the difference between the composition and the composition data it
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">A Portion Of Matter that consists of only titanium atoms.</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of titanium</rdfs:label> <rdfs:label xml:lang="zh">钛的部分</rdfs:label>
-        <skos:definition xml:lang="en">A 'portion of titanium' is a 'portion of pure chemical element' that 'consists of' only chebi:titanium atom.</skos:definition> <skos:definition xml:lang="zh">一个'钛的部分'是一个'纯化学元素的部分'，其'由'仅chebi:titanium atom组成。</skos:definition>
+        <rdfs:label xml:lang="en">portion of titanium</rdfs:label> <rdfs:label xml:lang="zh">钛</rdfs:label>
+        <skos:definition xml:lang="en">A 'portion of titanium' is a 'portion of pure chemical element' that 'consists of' only chebi:titanium atom.</skos:definition> <skos:definition xml:lang="zh">&apos;钛&apos;是&apos;一份纯化学元素&apos;，它&apos;由&apos;仅chebi:titanium atom组成。</skos:definition>
     </owl:Class>
     
 
@@ -15546,7 +15546,7 @@ characterized by frequency, wavelength, and speed</rdfs:comment>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020140"/>
         <rdfs:comment xml:lang="en">'portion of pure chemical element' and 'has part' only CHEBI:33336</rdfs:comment>
-        <rdfs:label xml:lang="en">portion of lanthanum</rdfs:label> <rdfs:label xml:lang="zh">镧部分</rdfs:label>
+        <rdfs:label xml:lang="en">portion of lanthanum</rdfs:label> <rdfs:label xml:lang="zh">镧</rdfs:label>
         <skos:definition xml:lang="en">A portion of lanthanum is a portion of pure substance that has parts only chebi:lanthanum atom.</skos:definition> <skos:definition xml:lang="zh">镧部分是指仅由chebi:lanthanum atom组成的纯物质部分。</skos:definition>
     </owl:Class>
     
